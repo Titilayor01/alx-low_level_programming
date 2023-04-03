@@ -2,10 +2,10 @@
 
 /**
   * _memset - fills the memory with a constant bite
-  * @n: The specified number of bytes
-  * @s: The pointer of type char
-  * @b: The constant byte
-  * Return: Returns a pointer to the memory area 's'
+  * @n: the specified number of bytes
+  * @s: the pointer of type char
+  * @b: the constant byte
+  * Return:returns a pointer to the memory area 's'
   */
 char *_memset(char *s, char b, unsigned int n)
 {
