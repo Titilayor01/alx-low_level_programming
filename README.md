@@ -1,1 +1,1 @@
-This is my first low level programming repository with the c language
+0x06-pointers_arrays_strings
