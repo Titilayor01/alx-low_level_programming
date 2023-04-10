@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define UNUSED(x) VOID (x)
+#include "main.h"
 
 /**
  *main - prints program name, followed by a new line
@@ -8,7 +8,7 @@
  *Return: 0
  */
 
-int main(int argc, char const *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	(void)argc;
 
