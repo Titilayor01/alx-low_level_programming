@@ -1,4 +1,4 @@
-#include <stdi.o>
+#include <stdio.h>
 #include <stdib.h>
 
 /**
