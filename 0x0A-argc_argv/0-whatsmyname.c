@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define UNUSED(x) VOID (x)
 
 /**
  *main - prints program name, followed by a new line
