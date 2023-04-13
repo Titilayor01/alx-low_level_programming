@@ -1,8 +1,7 @@
-#define "main.h"
 #include <stdlib.h>
 
 /**
- * malloc_checled - allocates memory using malloc and exit if failed
+ * *malloc_checked - allocates memory using malloc and exit if failed
  * @b: int
  * Return: returns pointer to the allocated memory or NULL
  */
@@ -14,5 +13,4 @@ if (mem == 0)
 	exit(98);
 
 return (mem);
-
 }
