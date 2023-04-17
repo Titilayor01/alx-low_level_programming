@@ -1,7 +1,8 @@
-// a program that prints the name of the file it was compiled with
+/* a program that prints the name of the file it was compiled with */
 
 #include <stdio.h>
-/**
+
+/*
  * main - entry point of the program
  *
  * Return: 0
