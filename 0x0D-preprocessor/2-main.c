@@ -1,16 +1,14 @@
-/* a program that prints the name of the file it was compiled with */
-
+/* A program that prints the name of the it was compiled with */
 #include <stdio.h>
 
-/*
- * main - entry point of the program
+/**
+ * main - Entry point of the program
  *
  * Return: 0
  */
-int main()
+int main(void)
 {
-	printf("s%\n", __FILE__);
+	printf("%s\n", __FILE__);
 
-	return 0
-
+	return (0);
 }
